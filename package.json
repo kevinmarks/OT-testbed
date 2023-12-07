@@ -1,0 +1,19 @@
+{
+  "name": "ot_testbed",
+  "description": "OpenTelemetry testbed",
+  "version": "0.0.1",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@honeycombio/opentelemetry-node": "^0.6.0",
+    "@opentelemetry/api": "^1.6.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.40.1",
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.4",
+    "path": "^0.12.7"
+  }
+}
